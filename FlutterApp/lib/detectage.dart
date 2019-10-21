@@ -74,19 +74,19 @@ class _State extends State<Detect> {
         _keys = data.keys.toList();
 
         compare(_values, _keys);
-        print("########################");
-        print(valor1);
-        print(valor2);
-        print(valor3);
-        print("########################");
-        print(_values);
-        print(_keys);
+        //print("########################");
+        //print(valor1);
+        //print(valor2);
+        //print(valor3);
+        //print("########################");
+        //print(_values);
+        //print(_keys);
       });
     });
   }
 
   Future gett() async {
-    var data = await http.get('http://3.132.160.107:5000/');
+    var data = await http.get('Put URL');
     var jsondata2 = json.decode(data.body);
     print(jsondata2);
     print(jsondata2.runtimeType);
@@ -280,7 +280,7 @@ class _State extends State<Detect> {
   }
 
   void compare(valors, chave) {
-    print("****************************************8");
+    //print("****************************************8");
     double valores0 = double.parse(valors[0]);
     double valores1 = double.parse(valors[1]);
     double valores2 = double.parse(valors[2]);

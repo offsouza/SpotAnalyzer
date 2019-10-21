@@ -88,18 +88,7 @@ class _HomeState extends State<Home> {
       ),
       body: bbody,
       bottomNavigationBar: bottomNormal(_selectedIndex, _onItemTapped),
-      // floatingActionButton: FloatingActionButton(
-      //     backgroundColor: Colors.greenAccent,
-      //     child: Icon(
-      //       Icons.help_outline,
-      //       color: Colors.white,
-      //       size: 40,
-      //       semanticLabel: "help",
-      //     ),
-      //     onPressed: () {
-      //       showAlertDialog(context);
-      //       //gett();
-      //     }),
+      
     );
   }
 
@@ -110,7 +99,7 @@ class _HomeState extends State<Home> {
     var length = await imageFile.length();
     print(length);
 
-    var uri = Uri.parse('http://3.132.160.107:5000/analiser');
+    var uri = Uri.parse('Put URL');
     print("connection established.");
     var request = new http.MultipartRequest("POST", uri);
     var multipartFile = new http.MultipartFile('file', stream, length,
@@ -129,11 +118,7 @@ class _HomeState extends State<Home> {
     });
   }
 
-  // gett() async {
-  //   var data = await http.get('http://192.168.0.17:5000/');
-  //   var jsondata = json.decode(data.body);
-  //   print(jsondata);
-  // }
+  
 
   Widget bodyy() {
     if (_load == 2) {
