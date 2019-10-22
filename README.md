@@ -25,4 +25,4 @@ O modelo criado com Python|Keras|TensorFlow pode ser feito o download aqui, assi
 
 Não é uma acurácia muito alta, porém consegue dar forte indícios. 
 
-O app está disponível para Android, porém ainda não está na Google Play, então caso queira testar basta somente baixar `release.apk` e instalar no seu aparelho.
+O app está disponível para Android, porém ainda não está na Google Play, então caso queira testar basta somente baixar `app-release.apk` e instalar no seu aparelho.
