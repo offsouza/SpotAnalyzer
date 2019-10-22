@@ -23,7 +23,7 @@ O modelo é capaz de indentificar 7 tipos diferentes de manchas ou "pintas".
 
 O modelo criado com Python|Keras|TensorFlow pode ser feito o download aqui, assim como os pesos treinados com uma precisão de 86% na classificação. 
 
-Não é uma acurácia muito alta, porém consegue dar forte indícios na classificação, sem um bom auxílio. 
+Não é uma acurácia muito alta, porém consegue dar forte indícios na classificação, sendo um bom auxílio. 
 
 O app está disponível para Android, porém ainda não está na Google Play, então caso queira testar basta somente baixar `app-release.apk` e instalar no seu aparelho.
 
