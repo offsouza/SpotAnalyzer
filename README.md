@@ -2,6 +2,12 @@
 
 Skin Cancer Detector | Detector de Câncer de pele | Flutter | Keras | TensorFlow | Flask | 
 
+<p align="center">
+  
+  <img  src="https://github.com/offsouza/SpotAnalyzer/blob/master/extras/gif.gif">
+  
+</p>
+
 Código de um app de detecção de cancer de pele usando IA/Visão Computacional. O Aplicativo foi feito através do Flutter, onde todo o código pode ser encontrado no diretório `FlutterApp/lib`. O modelo capaz de realizar as prediçoẽs foi hospedado em um servidor na AWS. E para a comunição entre o servidor e app, foi usando o framework Flask para receber e enviar as requisiçoẽs que pode ser encontrado na pasta `Flask`.
 
 O modelo é capaz de indentificar 7 tipos diferentes de manchas ou "pintas".
