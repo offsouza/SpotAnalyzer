@@ -4,6 +4,6 @@ numpy
 jsonpickle
 google-cloud-storage
 keras==2.2.4
-tensorflow==1.13.1
+tensorflow==2.6.4
 gunicorn==19.7.1
 pillow
